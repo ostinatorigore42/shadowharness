@@ -46,7 +46,7 @@ export default function SetupPage() {
         for (let i = 1; i <= Math.min(pdf.numPages, 10); i++) {
           const page = await pdf.getPage(i);
           const content = await page.getTextContent();
-          text += content.items.map((item: { str?: string }) => item.str ?? "").join(" ") + "\n";
+          text += (content.items as Array<{ str?: string }>).map((item) => item.str ?? "").join(" ") + "\n";
         }
         setDocText(text.slice(0, 4000));
         setDocumentsContext(text.slice(0, 4000));
