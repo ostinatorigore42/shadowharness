@@ -19,6 +19,7 @@ Rules:
 - assessment: 2-3 sentences synthesizing what you see — honest, sharp, no fluff. Name the real tension or drift you notice.
 - Generate 4-7 questions. Pull from these candidate topics based on what's actually relevant for this user:
     • Non-essential meetings (challenge at least one if present)
+    • Actual available hours — if the calendar looks packed or the user has a day job, ask what windows are genuinely free (mornings? evenings? weekends?)
     • Energy and chronotype this week (when is the user sharp vs depleted?)
     • Desired disposition: gentle / honest / challenging — how hard should the Shadow push?
     • Risk posture: ambitious / sustainable / recovery mode this week?

@@ -45,7 +45,7 @@ Field guidance:
 - kill_list: 3-5 things NOT happening this week, each with a blunt reason
 - drafted_artifacts: 2-3 actual ready-to-send messages — write the full text, not a placeholder. Keep each under 100 words.
 - failure_modes: 2-3 pre-mortem entries — name the actual risk, its early warning, the concrete pivot
-- events: cover the working day realistically (roughly 9am–7pm weekdays). Aim for 12-16 blocks. Leave genuine breathing room — lunch, buffers, transitions. Prefer longer blocks (2-3h deep work) over many short ones. No overlaps. Do NOT repeat existing calendar meetings.
+- events: first, look at the existing calendar to understand how much free time actually exists. If the person has a full-time job with meetings 9-5, their discretionary time is evenings, early mornings, and lunch — plan only in those windows and keep blocks sparse. If they're a founder or freelancer with an open calendar, cover more of the day. The block count should reflect reality: 4-6 blocks for someone with a packed day job, 10-14 for someone with an open schedule. Never schedule over existing events. Never assume time is free that isn't shown as free. Prefer longer focused blocks over many short ones.
 - goalRef should reference the goal text it serves
 
 No markdown. No explanation outside the JSON.`;
