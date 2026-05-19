@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { GoalsList } from "@/components/GoalsList";
 import { CalendarWeekView } from "@/components/CalendarWeekView";
@@ -9,6 +9,14 @@ import { MOCK_CALENDAR_EVENTS } from "@/lib/mock-calendar";
 import type { CalendarEvent } from "@/lib/types";
 
 export default function SetupPage() {
+  return (
+    <Suspense>
+      <SetupPageContent />
+    </Suspense>
+  );
+}
+
+function SetupPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { goals, setGoals, setDocumentsContext } = useShadowStore();
